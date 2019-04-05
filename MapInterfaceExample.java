@@ -81,6 +81,7 @@ public class MapInterfaceExample {
 		System.out.println("-----------------------");
 		
 		Set<Integer> s = map.keySet();
+		
 		System.out.println( map.keySet());
 		for(Integer i: s) {
 			System.out.println(i+" "+map.get(i));
@@ -91,7 +92,7 @@ public class MapInterfaceExample {
 		
 		Map<Integer,String> map1 = new HashMap<>();
 		
-		Comparator<Map.Entry<Integer, String>>  com = 	Map.Entry.comparingByKey();
+		//Comparator<Map.Entry<Integer, String>>  com = 	Map.Entry.comparingByKey();
 		
 		System.out.println("-----------------------");
 		
