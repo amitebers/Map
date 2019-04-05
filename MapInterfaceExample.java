@@ -123,7 +123,7 @@ public class MapInterfaceExample {
 		
 		System.out.println(map.size());
 		
-		/*clear()
+		/*void clear()
 		Removes all of the mappings from this map (optional operation).
 		
 		boolean 	containsKey(Object key)
